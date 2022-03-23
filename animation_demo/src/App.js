@@ -1,10 +1,11 @@
 import './App.css';
-import Shape from './Components/Shape/Shape.jsx';
+import Animation from './Components/Animation/Animation.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Shape />
+      {/* <Shape /> */} 
+      <Animation />
     </div>
   );
 }
