@@ -1,10 +1,10 @@
 import './App.css';
-import Shape from './Components/Shape/Shape.jsx';
+import GeneratePdf from './Components/GeneratePdf/GeneratePdf.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Shape />
+      <GeneratePdf />
     </div>
   );
 }
