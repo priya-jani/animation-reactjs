@@ -1,10 +1,10 @@
 import './App.css';
-import GeneratePdf from './Components/GeneratePdf/GeneratePdf.jsx';
+import GenerateCaptcha from './Components/GenerateCaptcha/GenerateCaptcha.jsx';
 
 function App() {
   return (
     <div className="App">
-      <GeneratePdf />
+      <GenerateCaptcha />
     </div>
   );
 }

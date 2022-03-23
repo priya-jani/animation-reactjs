@@ -1,8 +1,1 @@
-(1) For generate pdf we need to jspdf pakage (npm i jspdf)
-
-(2) Arguments of jsPDF
-Orientation: ‘p’ for portrait or ‘l’ for landscape
-Unit: ‘p’ (points), ‘mm’, ‘cm’, ‘m’, ‘in’, or ‘px’. We will be positioning elements in the PDF using these units. I suggest using ‘px’ since that’s our common CSS unit of measurement.
-Format: ‘letter’, ‘legal’, ‘ledger’, etc. You can also use the alphanumeric international paper size chart that ranges from ‘a0’ to ‘c10’. ‘a4’ translates to letter-sized paper.
-
-(3) For jspdf method(documentation) https://artskydj.github.io/jsPDF/docs/jsPDF.html
+Use <LoadCanvasTemplate /> for generate captcha, if you do not want 'Reload Captcha' than use <LoadCanvasTemplateNoReload />
